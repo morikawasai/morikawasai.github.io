@@ -1,0 +1,45 @@
+/* タブレットレイアウト*/
+
+@media (max-width:768px) {
+  .icon p {
+    top:100px;
+    left: 74px;
+    font-size: 30px;
+  }
+  .btns {
+    text-align: center;
+  }
+  .btn {
+display: block;
+
+
+  }
+  .btn a {
+    width: 200px;
+    display: block;
+    margin: 0 auto;
+  }
+  .btn-wrapper {
+    height: 350px;
+  }
+  .estimate-btn {
+    margin-right: 0;
+  }
+  .sample {
+    margin-right: 0;
+  }
+}
+
+/* スマホレイアウト*/
+
+@media (max-width:670px) {
+  .icon-box {
+    /* position: relative; */
+
+    width: 100%;
+    text-align: center;
+  }
+  .icon p {
+    color: white;
+  }
+}
